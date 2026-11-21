@@ -49,6 +49,13 @@ main{max-width:1020px;margin:0 auto;padding:0 var(--gutter)}
 /* hero */
 .hero{text-align:center;padding:56px 0 40px}
 .hero-logo{width:min(320px,72vw);height:auto;margin:0 auto 18px;display:block}
+/* logo a onda: il nero del JPG si fonde con lo sfondo scuro della pagina */
+.hero-wave{
+  display:block;width:min(1000px,100%);height:auto;margin:0 auto 6px;
+  mix-blend-mode:screen;
+  -webkit-mask-image:radial-gradient(ellipse 62% 70% at 50% 50%,#000 55%,transparent 100%);
+  mask-image:radial-gradient(ellipse 62% 70% at 50% 50%,#000 55%,transparent 100%);
+}
 h1{
   font-size:clamp(1.9rem,6vw,3.2rem);line-height:1.12;margin:0 auto 16px;max-width:18ch;
   letter-spacing:-.01em;
