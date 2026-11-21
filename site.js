@@ -3,8 +3,8 @@
 //  vuoto, il relativo pulsante non compare sul sito.
 // =====================================================
 const CONTATTI = {
-  email: "",      // es. "nome@dominio.it"
-  whatsapp: "",   // solo cifre con prefisso, es. "393331234567"
+  email: "info@mauryautomation.it",
+  whatsapp: "393899034232",   // 389 90 34 232 con prefisso Italia
 };
 
 (function () {
